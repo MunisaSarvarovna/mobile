@@ -119,3 +119,69 @@ gap: 10px;
     border-radius: 8px;
   background-color: #fb9c46;
 }
+
+
+
+/* header end */
+
+/* learn */
+
+
+.learn {
+}
+
+.learn__wrapper {
+    display: flex;
+}
+.learn__info {
+}
+.learn__best {
+    width: 130px;
+height: 24px;
+top: 212px;
+left: 110px;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+}
+.learn__title {
+    font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+
+line-height: 160%;
+letter-spacing: 3.5%;
+
+}
+.learn__text {
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.btn-green {
+    background-color: green;
+    color: white;
+    margin: 19px 79px;
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.learn__best-past {
+}
+.learn__tx {
+}
