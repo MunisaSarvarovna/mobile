@@ -1,0 +1,65 @@
+ :root{
+    --orange : (oran)
+ }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  backdrop-filter: blur(15px);
+  padding: 15px 0;
+  z-index: 10;
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+.container {
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__text {
+}
+.header__nav {
+   
+   
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    
+
+    gap: 50px;
+   
+}
+.header__item {
+  margin: 10px 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+.header__link {
+}
+.header__color {
+    border-radius: 8px;
+  background-color: #407f55;
+}
+.header__color-gren {
+    border-radius: 8px;
+  background-color: #fb9c46;
+}
