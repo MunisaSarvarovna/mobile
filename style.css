@@ -799,23 +799,153 @@ border-radius: 33px;
 
 
 }
+.box1 {
+  width: 260px;
+  height: 210px;
+  background: #eee;
+  position: relative;
+  overflow: hidden;
+}
 
-.work__img-ceti{
-
-  
+.orange-corner {
   position: absolute;
-    width: 231px;
-    height: 175px;
-   
-    left: 931px;
-    
-    top: 3120px;
-background-color: #FB9C46;
-border: 1px solid #FF922F;
+  inset: 0;
+  background: #ff9b2f;
 
-border-top-left: 0;
-border-radius: 15px;
-box-shadow: 0px 22px 0px 0px #FB9C4612;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  border-radius: 20px;
+}
+
+.orange-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 35%;
+  background: #ff9b2f;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  border-radius: 20px;
+}
+
+
+
+.edu {
+  padding: 100px 0;
+}
+
+.edu__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edu__info {
+}
+.edu__title {
+  width: 463px;
+height: 104px;
+top: 3055px;
+left: 109px;
+
+font-family: DM Sans;
+font-weight: 700;
+font-size: 36px;
+line-height: 52px;
+letter-spacing: 0.3px;
+color: var(--orange);
+
+
+}
+.edu__text {
+  width: 529px;
+height: 64px;
+top: 3191px;
+left: 109px;
+
+font-family: DM Sans;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 32px;
+letter-spacing: 0.3px;
+margin-top: 32px;
+color: #90A3B4;
+}
+.right__side {
+}
+.img__wrapper {
+  display: flex;
+}
+.palcka__img {
+  object-fit: cover;
+  margin-right: 7px;
+}
+.start__img {
+  object-fit: cover;
+}
+.right__info {
+  gap: 187px;
+}
+.right__text {
+  width: 442px;
+height: 96px;
+top: 3072px;
+left: 822px;
+
+font-family: DM Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 0px;
+margin-top: 14px;
+color: #90A3B4;
+
+}
+.img__jaquon {
+  width: 56px;
+height: 56px;
+top: 3188px;
+left: 822px;
+border-radius: 50%;
+margin-right: 15px;
+
 
 }
 
+.jaquaanni__infoyi{
+  align-items: center;
+}
+
+.jaquon__name {
+  width: 121px;
+height: 24px;
+top: 3188px;
+left: 893px;
+color: var(--orange);
+
+}
+.jaquon__info {
+  width: 286px;
+height: 28px;
+top: 3216px;
+left: 893px;
+
+font-family: DM Sans;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 28px;
+letter-spacing: 0px;
+color: #90A3B4;
+
+}
+.strelka {
+
+margin-left: 85px;
+
+
+
+}
+
+.tocka{
+  margin-top: 49px;
+}
